@@ -408,6 +408,8 @@ section h2 {
 }
 
 /* ============================================
+   SKILLS & TECHNOLOGIES 
+   ============================================ */
 
 .skills-container {
     max-width: 1200px;
@@ -1014,6 +1016,15 @@ section h2 {
   color: #c8c8c8;
   text-decoration: none;
   transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.icon-btn--dc {
+   background-color: transparent;
+}
+
+.icon-btn--dc svg {
+   width: 44px;
+   height: 44px;
 }
 
 .icon-btn svg {  
