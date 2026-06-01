@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with me for opportunities and collaborations">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVJkEZSMUkrQ6usKu8zIvxUivphLfAxcJmb0nG/5aJ2XDuncan2UE5kYoigSeuNzm50i2RElZ6+OQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">David Mavuta</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact-hero">
+        <h1>Get In Touch</h1>
+        <p class="subtitle">I'd love to hear from you. Let's connect!</p>
+    </section>
+
+    <section class="contact-content">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:davycrestchirchir25@gmail.com">davycrestchirchir25@gmail.com</a></p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+254746845855">+254 746845855</a></p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Location</h3>
+                    <p>Nairobi, Kenya</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>Social Media</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/davycrest/davycrest.github.io" target="_blank" title="GitHub">
+                          <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/david-mavuta-75b363357" target="_blank" title="LinkedIn">
+                          <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/davycrest" target="_blank" title="Instagram">
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <h3>Available For</h3>
+                    <ul>
+                        <li>Freelance Projects</li>
+                        <li>Full-time Positions</li>
+                        <li>Consultations</li>
+                        <li>Collaborations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Send me a Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Project Budget (Optional)</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select a budget range</option>
+                            <option value="under-1k">Under $1,000</option>
+                            <option value="1k-5k">$1,000 - $5,000</option>
+                            <option value="5k-10k">$5,000 - $10,000</option>
+                            <option value="over-10k">Over $10,000</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">I'll get back to you as soon as possible!</p>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 David Mavuta. All rights reserved.</p>
+            <div class="social-links">
+                <!-- GitHub Icon -->
+                <a href="https://github.com/davycrest" target="_blank" class="social-icon github-icon" title="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/david-mavuta-75b363357" target="_blank" class="social-icon linkedin-icon" title="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.05-8.81 0-9.728h3.554v1.375c.428-.659 1.191-1.595 2.897-1.595 2.117 0 3.704 1.385 3.704 4.362v5.586zM5.337 8.855c-1.144 0-1.915-.762-1.915-1.715 0-.955.77-1.715 1.92-1.715 1.148 0 1.919.76 1.943 1.715 0 .953-.795 1.715-1.948 1.715zm1.595 11.597H3.635V9.724h3.297v10.728zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+                    </svg>
+                </a>
+                <!-- Instagram Icon -->
+                <a href="https://www.instagram.com/davycrest" target="_blank" class="social-icon instagram-icon" title="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0m5.521 12.465c.006.111.01.223.01.336 0 2.137-.828 4.144-2.334 5.651-1.506 1.506-3.514 2.334-5.651 2.334-2.137 0-4.144-.828-5.651-2.334-1.506-1.506-2.334-3.514-2.334-5.651 0-.113.005-.225.01-.336H5.02v6.605c0 .56.454 1.014 1.014 1.014h11.932c.56 0 1.014-.454 1.014-1.014v-6.605h-.459zm0-3.379c0 .56-.454 1.014-1.014 1.014h-1.628c-.56 0-1.014-.454-1.014-1.014v-1.628c0-.56.454-1.014 1.014-1.014h1.628c.56 0 1.014.454 1.014 1.014v1.628zm-5.521 2.794c1.465 0 2.655-1.19 2.655-2.655s-1.19-2.655-2.655-2.655-2.655 1.19-2.655 2.655 1.19 2.655 2.655 2.655zm6.535-8.274H5.034c-.56 0-1.014.454-1.014 1.014v13.972c0 .56.454 1.014 1.014 1.014h11.972c.56 0 1.014-.454 1.014-1.014V4.62c0-.56-.454-1.014-1.014-1.014z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
